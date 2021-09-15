@@ -87,7 +87,7 @@ Make sure to read all of the instructions of this step first.
     - [https://dnschecker.org](https://dnschecker.org/) - This is a great tool to track NS record propagation.
     - Applying changes to cloudfront will take a **few minutes**
     - If `terraform apply` is erroring with the certificates and the validation, it is most likely that the NS record configuration was not done properly or the DNS records have not propagated enough.
-- One `terraform apply` is able to complete successfully, the AWS architecture should be up and running.
+- Once `terraform apply` is able to complete successfully, the AWS architecture should be up and running.
 
 ## [Step] Github Secrets
 
